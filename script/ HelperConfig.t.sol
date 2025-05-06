@@ -28,7 +28,7 @@ contract HelperConfig {
         });
     }
 
-    // Anvil: for now, return empty (we will add mocks later)
+    // Anvil: for now, return empty ( will add mocks later)
     function getAnvilEthConfig() public pure returns (NetworkConfig memory) {
         return NetworkConfig({
             priceFeed: address(0) // placeholder for now
