@@ -1,8 +1,8 @@
 -include .env
 
 
-DEFAULT_ANVIL_KEY := 
-DEFAULT_ZKSYNC_LOCAL_KEY := 
+DEFAULT_ANVIL_KEY := <---->
+DEFAULT_ZKSYNC_LOCAL_KEY := <---->
 
 all: clean remove install update build
 
