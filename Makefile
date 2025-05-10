@@ -1,6 +1,5 @@
 -include .env
 
-.PHONY: all test clean deploy fund help install snapshot format anvil zktest
 
 DEFAULT_ANVIL_KEY := 
 DEFAULT_ZKSYNC_LOCAL_KEY := 
