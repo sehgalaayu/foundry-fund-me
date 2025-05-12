@@ -4,7 +4,7 @@
 DEFAULT_ANVIL_KEY := <---->
 DEFAULT_ZKSYNC_LOCAL_KEY := <---->
 
-all: clean remove install update buil
+all: clean remove install update builD
 
 # Clean the repo
 clean  :; forge clean
